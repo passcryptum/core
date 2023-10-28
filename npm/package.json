@@ -1,0 +1,17 @@
+{
+  "name": "@passcryptum/core",
+  "version": "0.0.4",
+  "description": "Core of Passcryptum",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passcryptum/core.git"
+  },
+  "author": "nelkor",
+  "license": "MIT",
+  "files": ["./lib"],
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": "./lib/index.mjs"
+  }
+}
